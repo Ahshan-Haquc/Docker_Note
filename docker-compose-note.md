@@ -44,7 +44,7 @@ docker compose up -d
 docker compose down
 ```
 
-**Docker Compose কী?**
+**<h1 color="#0000FF">Docker Compose কী?</h1>**
 এটা একটা টুল যা দিয়ে **multi-container application** একটা YAML ফাইলে define করে, একটা কমান্ডে সব চালু/বন্ধ করা যায়। এটা YAML ফাইলটা পড়ে সব `docker run`, `docker network create`, `docker volume create` কমান্ড নিজেই চালিয়ে দেয়।
 
 ---
