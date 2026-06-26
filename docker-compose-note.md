@@ -2,7 +2,7 @@
 
 ## ভূমিকা: কেন Docker Compose দরকার?
 
-আগের গাইডে আমরা একটা Node.js app Dockerize করতে শিখেছি। কিন্তু বাস্তব দুনিয়ায় কোনো application একা চলে না। একটা সাধারণ web application-এ থাকে:
+আগের গাইডে আমরা একটা <span style="color:red">Node.js app Dockerize</span> করতে শিখেছি। কিন্তু বাস্তব দুনিয়ায় কোনো application একা চলে না। একটা সাধারণ web application-এ থাকে:
 
 - **Node.js API** (backend)
 - **MongoDB** (database)
