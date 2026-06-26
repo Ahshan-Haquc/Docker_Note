@@ -185,6 +185,7 @@ api:
 ```
 
 নিজের লেখা application-এর জন্য `build` ব্যবহার করুন।
+এটা লিখলে "docker build ." এটা লেখার প্রয়োজন হয় না, docker compose নিজেই আমার Dockerfile থেকে image তৈরি করে নেবে।
 
 **Option ২: `image` — Docker Hub থেকে ready-made image নেওয়া**
 ```yaml
