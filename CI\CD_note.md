@@ -235,7 +235,7 @@ jobs:
           key: ${{ secrets.VPS_SSH_KEY }}
           port: ${{ secrets.VPS_PORT }}
           script: |
-            cd /home/ahsan/apps/your-project
+            cd /home/ahsan/apps/your-project  #my project patch , pwd
             git pull origin main
             docker compose -f docker-compose.prod.yml up -d --build
             docker image prune -f
